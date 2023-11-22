@@ -1,0 +1,31 @@
+-- The C compiler identification is GNU 12.2.0
+-- The CXX compiler identification is GNU 12.2.0
+-- The ASM compiler identification is GNU
+-- Found assembler: /Applications/IOT/tools/xtensa-esp32-elf/esp-12.2.0_20230208/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /Applications/IOT/tools/xtensa-esp32-elf/esp-12.2.0_20230208/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /Applications/IOT/tools/xtensa-esp32-elf/esp-12.2.0_20230208/xtensa-esp32-elf/bin/xtensa-esp32-elf-g++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Building ESP-IDF components for target esp32
+-- Project sdkconfig file /Applications/IOT/esp-idf/Trafic_lights_cpp/sdkconfig
+-- App "TRAFIC_LIGHTS_CPP" version: v5.1.1-dirty
+-- Adding linker script /Applications/IOT/esp-idf/Trafic_lights_cpp/build/esp-idf/esp_system/ld/memory.ld
+-- Adding linker script /Applications/IOT/esp-idf/components/esp_system/ld/esp32/sections.ld.in
+-- Adding linker script /Applications/IOT/esp-idf/components/esp_rom/esp32/ld/esp32.rom.ld
+-- Adding linker script /Applications/IOT/esp-idf/components/esp_rom/esp32/ld/esp32.rom.api.ld
+-- Adding linker script /Applications/IOT/esp-idf/components/esp_rom/esp32/ld/esp32.rom.libgcc.ld
+-- Adding linker script /Applications/IOT/esp-idf/components/esp_rom/esp32/ld/esp32.rom.newlib-data.ld
+-- Adding linker script /Applications/IOT/esp-idf/components/esp_rom/esp32/ld/esp32.rom.syscalls.ld
+-- Adding linker script /Applications/IOT/esp-idf/components/esp_rom/esp32/ld/esp32.rom.newlib-funcs.ld
+-- Adding linker script /Applications/IOT/esp-idf/components/soc/esp32/ld/esp32.peripherals.ld
+-- Components: app_trace app_update bootloader bootloader_support bt cmock console cxx driver efuse esp-tls esp_adc esp_app_format esp_coex esp_common esp_eth esp_event esp_gdbstub esp_hid esp_http_client esp_http_server esp_https_ota esp_https_server esp_hw_support esp_lcd esp_local_ctrl esp_mm esp_netif esp_netif_stack esp_partition esp_phy esp_pm esp_psram esp_ringbuf esp_rom esp_system esp_timer esp_wifi espcoredump esptool_py fatfs freertos hal heap http_parser idf_test ieee802154 json log lwip main mbedtls mqtt newlib nvs_flash openthread partition_table perfmon protobuf-c protocomm pthread sdmmc soc spi_flash spiffs tcp_transport ulp unity usb vfs wear_levelling wifi_provisioning wpa_supplicant xtensa
+-- Component paths: /Applications/IOT/esp-idf/components/app_trace /Applications/IOT/esp-idf/components/app_update /Applications/IOT/esp-idf/components/bootloader /Applications/IOT/esp-idf/components/bootloader_support /Applications/IOT/esp-idf/components/bt /Applications/IOT/esp-idf/components/cmock /Applications/IOT/esp-idf/components/console /Applications/IOT/esp-idf/components/cxx /Applications/IOT/esp-idf/components/driver /Applications/IOT/esp-idf/components/efuse /Applications/IOT/esp-idf/components/esp-tls /Applications/IOT/esp-idf/components/esp_adc /Applications/IOT/esp-idf/components/esp_app_format /Applications/IOT/esp-idf/components/esp_coex /Applications/IOT/esp-idf/components/esp_common /Applications/IOT/esp-idf/components/esp_eth /Applications/IOT/esp-idf/components/esp_event /Applications/IOT/esp-idf/components/esp_gdbstub /Applications/IOT/esp-idf/components/esp_hid /Applications/IOT/esp-idf/components/esp_http_client /Applications/IOT/esp-idf/components/esp_http_server /Applications/IOT/esp-idf/components/esp_https_ota /Applications/IOT/esp-idf/components/esp_https_server /Applications/IOT/esp-idf/components/esp_hw_support /Applications/IOT/esp-idf/components/esp_lcd /Applications/IOT/esp-idf/components/esp_local_ctrl /Applications/IOT/esp-idf/components/esp_mm /Applications/IOT/esp-idf/components/esp_netif /Applications/IOT/esp-idf/components/esp_netif_stack /Applications/IOT/esp-idf/components/esp_partition /Applications/IOT/esp-idf/components/esp_phy /Applications/IOT/esp-idf/components/esp_pm /Applications/IOT/esp-idf/components/esp_psram /Applications/IOT/esp-idf/components/esp_ringbuf /Applications/IOT/esp-idf/components/esp_rom /Applications/IOT/esp-idf/components/esp_system /Applications/IOT/esp-idf/components/esp_timer /Applications/IOT/esp-idf/components/esp_wifi /Applications/IOT/esp-idf/components/espcoredump /Applications/IOT/esp-idf/components/esptool_py /Applications/IOT/esp-idf/components/fatfs /Applications/IOT/esp-idf/components/freertos /Applications/IOT/esp-idf/components/hal /Applications/IOT/esp-idf/components/heap /Applications/IOT/esp-idf/components/http_parser /Applications/IOT/esp-idf/components/idf_test /Applications/IOT/esp-idf/components/ieee802154 /Applications/IOT/esp-idf/components/json /Applications/IOT/esp-idf/components/log /Applications/IOT/esp-idf/components/lwip /Applications/IOT/esp-idf/Trafic_lights_cpp/main /Applications/IOT/esp-idf/components/mbedtls /Applications/IOT/esp-idf/components/mqtt /Applications/IOT/esp-idf/components/newlib /Applications/IOT/esp-idf/components/nvs_flash /Applications/IOT/esp-idf/components/openthread /Applications/IOT/esp-idf/components/partition_table /Applications/IOT/esp-idf/components/perfmon /Applications/IOT/esp-idf/components/protobuf-c /Applications/IOT/esp-idf/components/protocomm /Applications/IOT/esp-idf/components/pthread /Applications/IOT/esp-idf/components/sdmmc /Applications/IOT/esp-idf/components/soc /Applications/IOT/esp-idf/components/spi_flash /Applications/IOT/esp-idf/components/spiffs /Applications/IOT/esp-idf/components/tcp_transport /Applications/IOT/esp-idf/components/ulp /Applications/IOT/esp-idf/components/unity /Applications/IOT/esp-idf/components/usb /Applications/IOT/esp-idf/components/vfs /Applications/IOT/esp-idf/components/wear_levelling /Applications/IOT/esp-idf/components/wifi_provisioning /Applications/IOT/esp-idf/components/wpa_supplicant /Applications/IOT/esp-idf/components/xtensa
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Applications/IOT/esp-idf/Trafic_lights_cpp/build
